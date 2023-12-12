@@ -1,0 +1,23 @@
+#Author: Mason Andrews
+def sum_up_to_input(user_input):
+    total = 0
+    for num in range(1, user_input + 1):
+        total += num
+    return total
+
+user_number = int(input("Enter an integer: "))
+
+result_sum = sum_up_to_input(user_number)
+
+print("The sum of all numbers up to", user_number, "is:", result_sum)
+
+# lab_8-2.py
+
+\def generate_invitations(names):
+    for name in names:
+        invitation = f"Hi {name}, You're invited to my party on Friday!"
+        print(invitation)
+
+guest_list = ["Alice", "Bob", "Charlie"]
+
+generate_invitations(guest_list)
